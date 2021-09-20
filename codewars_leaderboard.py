@@ -7,7 +7,7 @@ print("  ############# Live Services Code Wars Leaderboard #############  ")
 
 storedprofile = []
 
-usernames = ["Katesagay","Maiara Rodrigues","vsamraj","charlotteeldred","cecheta"]
+usernames = ["Katesagay","${insertUsername}","${insertUsername}","${insertUsername}","${insertUsername}"]
 for username in usernames :
     response = requests.get(f"https://www.codewars.com/api/v1/users/{username}")
     data = response.json()
