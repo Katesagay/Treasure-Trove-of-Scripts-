@@ -6,7 +6,7 @@ from tabulate import tabulate
 print("  ############# Live Services Code Wars Leaderboard #############  ")
 
 storedprofile = []
-
+#please replace ${insertUsername} with the username needed
 usernames = ["Katesagay","${insertUsername}","${insertUsername}","${insertUsername}","${insertUsername}"]
 for username in usernames :
     response = requests.get(f"https://www.codewars.com/api/v1/users/{username}")
